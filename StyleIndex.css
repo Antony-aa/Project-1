@@ -2,21 +2,26 @@
 	margin: 0;
 	font-family: sans-serif;
 }
+body {
+	background-color: rgb(234, 238, 241);
+}
 .h1-header {
 	text-align: center;
 	padding: 10px 0;
-	background-color: beige;
+	background-color: rgb(24, 24, 23);
+	color: aliceblue;
 }
 .navContainer {
 	padding: 8px;
-	background-color: rgb(221, 221, 128);
+	background-color: rgb(128, 161, 221);
 	border-top: 2px solid #777;
 	border-bottom: 2px solid #777;
 }
 .nav-list {
-	background-color: rgb(221, 221, 128);
+	background-color: rgb(128, 161, 221);
 }
 .nav-list-items {
+	background-color: rgb(128, 161, 221);
 	font-weight: 100;
 	list-style-type: none;
 	font-size: 18px;
@@ -26,4 +31,24 @@
 
 .p-main {
 	margin: 20px 50px;
+}
+
+article {
+	margin: 20px;
+	padding: 0px 30px;
+	max-width: 70vw;
+	text-align: center;
+}
+
+article h2 {
+	text-align: start;
+	padding-bottom: 10px;
+}
+
+article img {
+	display: block;
+	max-width: 30vw;
+	height: fit-content;
+	border: 3px ridge black;
+	margin-top: 10px;
 }
